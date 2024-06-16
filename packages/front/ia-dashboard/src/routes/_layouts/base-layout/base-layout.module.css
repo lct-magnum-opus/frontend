@@ -1,0 +1,9 @@
+.baseLayout {
+  height: calc(100svh - 60px);
+}
+
+@media (min-width: 1024px) {
+  .baseLayout {
+    height: 100svh;
+  }
+}
